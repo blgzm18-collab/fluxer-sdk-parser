@@ -1,0 +1,830 @@
+{
+  "version": "2.2.8",
+  "classes": [
+    {
+      "kind": "class",
+      "name": "Base",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "GuildEmoji",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "GuildSticker",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "Role",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "ReactionCollector",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "Message",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "User",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "GuildBan",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "GuildMemberRoleManager",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "MessageReaction",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "GuildMemberManager",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "Invite",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "Webhook",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "Guild",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "CacheController",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "ChannelManager",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "ClientUser",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "MessageManager",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "PackManager",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "UserManager",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "MessageCollector",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "GuildChannel",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "TextChannel",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "CategoryChannel",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "VoiceChannel",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "LinkChannel",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "DMChannel",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "Channel",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "GuildMember",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "GuildManager",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "Client",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "TextCapableChannel",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\index.js"
+    },
+    {
+      "kind": "class",
+      "name": "TextCapableChannel",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\cluster.js"
+    },
+    {
+      "kind": "class",
+      "name": "ClientCluster",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\cluster.d.ts"
+    },
+    {
+      "kind": "class",
+      "name": "TextCapableChannel",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\client.js"
+    }
+  ],
+  "interfaces": [
+    {
+      "kind": "interface",
+      "name": "MessageAttachmentEdit",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AttachmentUploadPlanItem",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AttachmentUploadCompleteItem",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AttachmentUploadPartPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AttachmentUploadSinglepartPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AttachmentUploadMultipartPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AttachmentUploadPlanResponse",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AttachmentUploadCompleteResponse",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ChannelPermissionOverwriteOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ChannelEditOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ChannelInviteCreateOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "RtcRegionPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ChannelSlowmodePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "DiscoveryApplicationOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "DiscoveryApplicationPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "DiscoveryStatusPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ExpressionCreateOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ExpressionEditOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "StickerCreateOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "StickerEditOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "RoleCreateOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "GuildMemberSearchOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "GuildMemberEditOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "BulkFetchMessagesRequest",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PackCreateOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PackEditOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PackInviteCreateOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PackEmojiPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PackStickerPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PackInvitePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PackBulkCreatePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PresenceUpdateOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "UserProfilePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ConnectedAccountPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ProfilePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "SudoVerificationOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "WebhookEditOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ResolvedMessageFile",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessageAttachmentMeta",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "SendBodyResult",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessagePostPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ReactionCollectorOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "CollectedReaction",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ReactionCollectorEvents",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessageEditOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ReplyOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PartialMessage",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ReactionEmojiPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessageReactionPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "GuildRoleDeletePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessageDeleteBulkPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "InviteDeletePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "TypingStartPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "GuildEmojisUpdatePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "GuildStickersUpdatePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessageReactionRemoveAllPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessageReactionRemoveEmojiPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessageReactionAddManyEntry",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessageReactionAddManyPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ChannelPinsUpdatePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PresenceActivity",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PresenceUpdatePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PresenceUpdateBulkPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "WebhooksUpdatePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "GuildMembersChunkPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AuditLogChange",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AuditLogEntryPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "GuildCountsUpdatePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ChannelMemberCountsUpdatePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "GuildRoleUpdatePayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "VanityURLPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AuditLogFetchPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "GuildMemberSearchHit",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "GuildMemberSearchPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PackSummaryPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PartialUserGuildPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ChannelRecipientPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "WebhookMessageEditOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "CacheSizeLimits",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ResolvedCacheLimits",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ResolvedCacheOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ClientOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "CacheStats",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "FetchMessagesOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "BulkFetchMessagesOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "BulkFetchMessagesChannelResult",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "BulkFetchMessagesResult",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PackDashboardSectionPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "PackDashboardPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "FetchedUserWithProfile",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ResolvedInstance",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessageCollectorOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "MessageCollectorEvents",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ClientEvents",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "CdnUrlOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\index.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ClientClusterEventMap",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\cluster.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ClientRuntime",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\cluster.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "ClientClusterOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\cluster.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "AddClientRuntimeOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\cluster.d.ts"
+    },
+    {
+      "kind": "interface",
+      "name": "RestartClientRuntimeOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\cluster.d.ts"
+    }
+  ],
+  "enums": [],
+  "typeAliases": [
+    {
+      "kind": "typeAlias",
+      "name": "AttachmentUploadPlanResponseItem",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "RoleEditOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "GuildData",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "GuildEditOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "GuildBanOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "ChannelPositionUpdate",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "UploadFileForSend",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "MessageFileData",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "AllowedMentionsOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "MessageReplyTarget",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "MessageSendOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "MessagePrepareDefaults",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "MessagePrepareInput",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "ReactionCollectorEndReason",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "PreparedMessagePost",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "EmojiInput",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "RoleResolvable",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "WebhookSendOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "MemberPayload",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "MessageCollectorEndReason",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "FetchPinnedMessagesOptions",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "PinnedMessagesPage",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "ClientEventName",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "ClientEventListener",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "ClientEventMethods",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "DiscoveryOrigin",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\SubpathMessage-D70lAT7N.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "ClientClusterEventName",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\cluster.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "ClientClusterEventListener",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\cluster.d.ts"
+    },
+    {
+      "kind": "typeAlias",
+      "name": "ClientRuntimeStatus",
+      "file": "C:\\Users\\Jw4lk\\Documents\\fluxer-sdk-parser\\node_modules\\@fluxerjs\\core\\dist\\cluster.d.ts"
+    }
+  ]
+}
