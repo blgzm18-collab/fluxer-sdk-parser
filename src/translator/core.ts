@@ -6,6 +6,7 @@ import { FluxerMessageMapper } from "./messageMapper";
 import { FluxerChannelMapper } from "./channelMapper";
 import { FluxerEmbedMapper } from "./embedMapper";
 import { FluxerPermissionMapper } from "./permissionMapper";
+import { FluxerRoleMapper } from "./roleMapper";
 
 export interface SDKMeta {
   classes: any[];
@@ -24,6 +25,7 @@ export class FluxerTranslatorCore {
   channelMapper: FluxerChannelMapper;
   embedMapper: FluxerEmbedMapper;
   permissionMapper: FluxerPermissionMapper;
+  roleMapper: FluxerRoleMapper;
 
   constructor() {
     this.fluxer = this.loadFluxerMeta();
@@ -35,6 +37,7 @@ export class FluxerTranslatorCore {
     this.channelMapper = new FluxerChannelMapper(this);
     this.embedMapper = new FluxerEmbedMapper(this);
     this.permissionMapper = new FluxerPermissionMapper(this);
+	this.roleMapper = new FluxerRoleMapper(this);
 
   }
 
@@ -60,6 +63,7 @@ export class FluxerTranslatorCore {
 	out = this.channelMapper.rewrite(out);
 	out = this.embedMapper.rewrite(out);
 	out = this.permissionMapper.rewrite(out);
+	out = this.roleMapper.rewrite(out);
 
 	  return out;
 	}
