@@ -40,6 +40,8 @@ const eventMapper_1 = require("./eventMapper");
 const eventRewrite_1 = require("./eventRewrite");
 const messageMapper_1 = require("./messageMapper");
 const channelMapper_1 = require("./channelMapper");
+const embedMapper_1 = require("./embedMapper");
+const permissionMapper_1 = require("./permissionMapper");
 class FluxerTranslatorCore {
     constructor() {
         this.fluxer = this.loadFluxerMeta();
@@ -48,6 +50,8 @@ class FluxerTranslatorCore {
         this.eventRewrite = new eventRewrite_1.FluxerEventRewrite(this);
         this.messageMapper = new messageMapper_1.FluxerMessageMapper(this);
         this.channelMapper = new channelMapper_1.FluxerChannelMapper(this);
+        this.embedMapper = new embedMapper_1.FluxerEmbedMapper(this);
+        this.permissionMapper = new permissionMapper_1.FluxerPermissionMapper(this);
     }
     loadFluxerMeta() {
         const file = path.join(__dirname, "..", "..", "fluxer-sdk-meta.json");
@@ -66,6 +70,8 @@ class FluxerTranslatorCore {
         out = this.eventRewrite.rewrite(out);
         out = this.messageMapper.rewrite(out);
         out = this.channelMapper.rewrite(out);
+        out = this.embedMapper.rewrite(out);
+        out = this.permissionMapper.rewrite(out);
         return out;
     }
 }

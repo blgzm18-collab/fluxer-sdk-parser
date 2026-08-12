@@ -4,6 +4,8 @@ import { FluxerEventMapper } from "./eventMapper";
 import { FluxerEventRewrite } from "./eventRewrite";
 import { FluxerMessageMapper } from "./messageMapper";
 import { FluxerChannelMapper } from "./channelMapper";
+import { FluxerEmbedMapper } from "./embedMapper";
+import { FluxerPermissionMapper } from "./permissionMapper";
 
 export interface SDKMeta {
   classes: any[];
@@ -20,7 +22,8 @@ export class FluxerTranslatorCore {
   eventRewrite: FluxerEventRewrite;
   messageMapper: FluxerMessageMapper;
   channelMapper: FluxerChannelMapper;
-
+  embedMapper: FluxerEmbedMapper;
+  permissionMapper: FluxerPermissionMapper;
 
   constructor() {
     this.fluxer = this.loadFluxerMeta();
@@ -30,6 +33,8 @@ export class FluxerTranslatorCore {
     this.eventRewrite = new FluxerEventRewrite(this);
     this.messageMapper = new FluxerMessageMapper(this);
     this.channelMapper = new FluxerChannelMapper(this);
+    this.embedMapper = new FluxerEmbedMapper(this);
+    this.permissionMapper = new FluxerPermissionMapper(this);
 
   }
 
@@ -50,9 +55,11 @@ export class FluxerTranslatorCore {
 	translate(code: string): string {
 	  let out = code;
 
-	  out = this.eventRewrite.rewrite(out);
-	  out = this.messageMapper.rewrite(out);
-	  out = this.channelMapper.rewrite(out);
+	out = this.eventRewrite.rewrite(out);
+	out = this.messageMapper.rewrite(out);
+	out = this.channelMapper.rewrite(out);
+	out = this.embedMapper.rewrite(out);
+	out = this.permissionMapper.rewrite(out);
 
 	  return out;
 	}
