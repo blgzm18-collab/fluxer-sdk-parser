@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "check": "npm run typecheck && biome lint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,11 +18,12 @@
     "@babel/parser": "^8.0.4",
     "@babel/traverse": "^8.0.4",
     "@fluxerjs/core": "^2.2.0",
-    "glob": "^13.0.6",
-    "ts-node": "^10.9.2",
-    "typescript": "^7.0.2"
+    "glob": "^13.0.6"
   },
   "devDependencies": {
-    "@types/node": "^26.2.0"
+    "@biomejs/biome": "^2.5.8",
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
   }
 }
